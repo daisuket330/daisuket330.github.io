@@ -1,26 +1,137 @@
-
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <title>My Webpage</title>
-    <meta name ="author" content="Treveon">
+<head>
+  <title>My Webpage</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  <style>
+    /* Remove the navbar's default margin-bottom and rounded borders */ 
+    .navbar {
+      margin-bottom: 0;
+      border-radius: 0;
+    }
+    
+    /* Set height of the grid so .sidenav can be 100% (adjust as needed) */
+    .row.content {height: 450px}
+    
+    /* Set background color and 100% height */
+    .sidenav {
+      padding-top: 20px;
+      background-color: #0965b1;
+      height: 100%;
+    }
+
+    footer {
+      background-color: #555;
+      color: white;
+      padding: 15px;
+    }
+    
+    @media screen and (max-width: 767px) {
+      .sidenav {
+        height: auto;
+        padding: 15px;
+      }
+      .row.content {height:auto;} 
+    
+    h2 {
+        padding: 50px;
+        margin: 50px;
+        border-width: 5px;
+        border-style:ridge;
+        border-color: crimson;
+    }
+
+    h3 {
+        padding: auto;
+        margin: auto;
+        border-width: 50px;
+        border-style: solid;
+        border-color: chartreuse;
+
+    }
+    
+    
+    }
+  </style>
 </head>
+<body style="background-color: cyan;">
 <body>
+  
+    <nav class="navbar navbar-inverse">
+        <div class="container-fluid">
+          <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>                        
+            </button>
+            <a class="navbar-brand" href="#"></a>
+          </div>
+          <div class="collapse navbar-collapse" id="myNavbar">
+            <ul class="nav navbar-nav">
+              <li class="active"><a href="#">Home</a></li>
+              <li><a href="#about">About</a></li>
+              <li><a href="projects">Projects</a></li>
+              <li><a href="#contact">Contact</a></li>
+            </ul>
+            <ul class="nav navbar-nav navbar-right">
+            </ul>
+          </div>
+        </div>
+      </nav>
+  
+<div class="container-fluid text-center">    
+  <div class="row content">
+    <div class="col-sm-2 sidenav">
+      <img src="karcana.jpg" alt="virtual me"
+      height="200"
+      width="180">
+      <p>i spend a lot of free time in eorzea</p>
+    <img src="207-2073499_translate-platform-from-english-to-spanish-work-in.png"
+    height="100"
+    width="100">
+    </div>
+  
+    
+    <div class="col-sm-8 text-left"> 
+      <center><h1>Welcome</h1>
+      <h2>Thank you for visiting my home page!</h2>
+      <hr>
+     </center>
+ <section>
+  <center><h3 id="about">About Me</h3></center>
+<p>Hello! My name is Treveon.I am currently studying fullstack develpoment at DevCodeCamp.My hobbies include:Reading,Anime,model building,video games,trying new foods,and learning languages(i am studying japanese and know quite a bit of spanish).I am looking forward to fully learning coding and programming,and develpoment.One of my goals/dreams,is to visit japan within the next year(or two,all things considered)</p>
+</section>
+      
+    </div>
+    <div
     <center>
-        <h1>Hello</h1>
-    <h3>This is my very first website.Thanks for visiting</h3>
-    <p>My Name is Treveon. </p>
-    </center>
- <table>
-   <tr><th>Table of Contents</th></tr>
-   <tr><td>Home</td></tr> <a href="#home"> Home </a>
-   <tr><td>About Me</td></tr> <a href="#about me"> About Me </a>
-   <tr><td>Projects</td></tr> <a href="#projects">Projects </a> 
- </table>
+     <section>
+      <div class="container-fluid text-center">    
+        <div class="row content">
+          <div class="col-sm-2 sidenav">
+<img src="395598_3002294012332_772121766_n.jpg"
+width="130"
+height="150"/>         
+<p>i also honourably served in the U.S army</p>
+<img src="meblueflowery.jpg" alt="hey its me"
+width="130"
+height="150"/>
+</section>
+</center>
+    
+      </div>
+    </div>
+  </div>
+</div>
 
+<footer id="contact" class="container-fluid text-center">
+  <p> <a href="http://www.linkedin.com/in/treveon-edwards-fly330">Contact Me</a></p>
+</footer>
 
-          
 </body>
 </html>
-
